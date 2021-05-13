@@ -1,12 +1,19 @@
-/* Colori */
+h1 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: bold;
+    color: #29B1DD;
+}
 
 /* Main */
+
+main {
+    background-color: #DDDDDD;
+}
 
 #contenitore_card {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: #DDDDDD;
 }
 
 .card{
@@ -15,4 +22,14 @@
 
 .fas{
     font-size: 2rem;
+}
+
+.contenitore_selezione{
+    background-color: #29B1DD;
+}
+
+.selezione {
+    width: fit-content;
+    font-size: .7rem;
+    vertical-align: text-bottom;
 }

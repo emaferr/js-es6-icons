@@ -106,7 +106,7 @@ const icone = [
 icone.forEach((icona) => {
 
     // Milestone 2 Coloriamo le icone per tipo
-    
+
     if (icona.type === "animal") {
         icona.colore = "blue" 
     }else if (icona.type === "user") {
@@ -127,6 +127,8 @@ icone.forEach((icona) => {
     )
 
 }) ;
+
+// Milestone 3 Creiamo una select con i tipi di icone e usiamola per filtrare le icone
 
 
 
