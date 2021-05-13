@@ -1,9 +1,12 @@
+/* Colori */
+
 /* Main */
 
 #contenitore_card {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    background-color: #DDDDDD;
 }
 
 .card{
