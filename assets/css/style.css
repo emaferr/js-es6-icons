@@ -1,0 +1,15 @@
+/* Main */
+
+#contenitore_card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    border-radius: .5rem!important;
+}
+
+.fas{
+    font-size: 2rem;
+}
